@@ -1,0 +1,21 @@
+{
+  "name": "magistum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "build-copy": "cpx ./public/** ./dist/",
+    "build": "npm run build-ts && npm run build-copy",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "author": "J-F Bilodeau (jbilodeau@microsoft.com)",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/qrcode": "^1.5.5",
+    "cpx": "^1.5.0",
+    "electron": "^31.1.0",
+    "qrcode": "^1.5.3",
+    "typescript": "^5.5.3"
+  }
+}
