@@ -12,8 +12,9 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/http-cache-semantics": "^4.0.4",
     "@types/qrcode": "^1.5.5",
-    "cpx": "^1.5.0",
+    "cpx": "^1.2.1",
     "electron": "^31.1.0",
     "qrcode": "^1.5.3",
     "typescript": "^5.5.3"

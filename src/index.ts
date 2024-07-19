@@ -1,11 +1,9 @@
-import * as QRCode from 'qrcode'
-
 import {Settings} from './settings'
-import {QrCode} from "./qr";
+import {Qr} from "./qr";
 
 export class Magister {
     public readonly settings = new Settings()
-    public readonly qrCode = new QrCode()
+    public readonly qr = new Qr()
 
     constructor() {
     }
