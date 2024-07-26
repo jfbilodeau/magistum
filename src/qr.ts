@@ -1,4 +1,4 @@
-import * as QRCode from "qrcode";
+import qrcode from 'qrcode';
 
 export class Qr {
     constructor() {
@@ -25,7 +25,7 @@ export class Qr {
 
         const decodedText = decodeURIComponent(encodedUrl)
 
-        const dataUrl = await QRCode.toDataURL(decodedText)
+        const dataUrl = await qrcode.toDataURL(decodedText)
 
         return dataUrl
     }

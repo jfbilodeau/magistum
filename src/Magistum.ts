@@ -1,7 +1,7 @@
 import {Settings} from './settings'
 import {Qr} from "./qr";
 
-export class Magister {
+export class Magistum {
     public readonly settings = new Settings()
     public readonly qr = new Qr()
 
@@ -13,4 +13,4 @@ export class Magister {
     }
 }
 
-export const magister = new Magister()
+export const magistum = new Magistum()
